@@ -1,3 +1,97 @@
-* {
-    background-color:white;
+
+body {
+    background-color:rgb(208, 233, 255); 
+    padding:10px;
+    font-family: 'Montserrat', 'sans-serif';
+    max-width:900px;
+    margin: 0 auto;
+    font-size:large;    
+    line-height:1.6;
 }
+
+h1{
+    text-align: center;
+    font-family: "Playfair Display", 'Montserrat', 'sans-serif';
+    font-size:70px;
+    margin:0 auto;
+}
+
+h1.dish-heading {
+    margin-bottom:27px;
+}
+
+
+h2 {
+    font-size:185%;
+    padding:2px 4px;
+}
+
+h2.underline {
+    font-family: "Playfair Display", 'Montserrat', 'sans-serif';
+    border-bottom: 2px solid #000000;
+}
+
+h2.last-line {
+    font-family: cursive;
+    font-weight:300;
+}
+h3 {
+    padding: 0 4px;
+    font-weight:570;
+}
+
+a {
+  text-decoration: none; 
+  color: inherit;         
+}
+
+a.home-button {
+    display:inline-block;
+    background-color:white; 
+    border-radius:30px;
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+a.home-button:hover {
+    transform: scale(1.06);
+    box-shadow: 0 4px 10px rgba(80, 227, 247, 0.4);
+}
+
+.home-container {
+    margin-top:20px;
+}
+
+p {
+    padding: 0 4px;
+}
+
+ul.recipes-links li {
+    background-color:white;
+    width:250px;
+    margin: 0 auto 15px auto;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+    border-radius: 30px;
+}
+
+ul.recipes-links li:hover {
+    transform: scale(1.06);
+    box-shadow: 0 4px 10px rgba(80, 227, 247, 0.4);
+}
+
+ul.recipes-links h2 {
+    text-align: center;
+    padding: 10px;
+    font-weight:530;
+    font-size:25px;
+}
+
+img{
+    display:block;
+    border-radius:30px;
+    height:330px;
+    width:auto;
+    margin: 0 auto;
+}
+
